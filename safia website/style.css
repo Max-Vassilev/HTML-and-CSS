@@ -1,0 +1,116 @@
+body{
+    background-color: #01163f;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #01163f;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid white;
+}
+
+
+.logo_and_name{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    gap: 7px;
+    font-size: 22px;
+}
+
+.logo_and_name img{
+    height: 80%;
+}
+
+.nav_and_button{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 50px;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.nav_and_button button{
+    background-color: rgb(28, 24, 24);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.nav_and_button nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav_and_button li a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    padding-top: 100px;
+}
+
+.hero_beginning{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 50px;
+    margin-left: 12.5%;
+}
+
+.hero_beginning h1{
+    font-size: 40px;
+    width: 30%;
+}
+
+.hero_beginning_right_side{
+    width: 40%;
+    color: gray;
+}
+
+.hero_beginning_right_side button{
+    background-color: rgb(96, 95, 95);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.main_img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 80%;
+    margin: 50px auto;
+    align-items: center;
+    position: relative;
+    right: 25px;
+}
